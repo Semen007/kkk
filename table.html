@@ -247,16 +247,85 @@
 	</table>
 
 	<h1>CELLPADDING і CALLSPACING</h1>
-
+	<table border="2" bordercolor="black">
+		<tr>
+			<td>Комірка 1</td>
+			<td>Комірка 2</td>
+		</tr>
+		<tr>
+			<td>Комірка 3</td>
+			<td>Комірка 4</td>
+		</tr>
+	</table>
 	<h1 align="center">ВИРІВНЮВАННЯ, ЗАГОЛОВКИ ТА ПІДТАБЛИЦІ</h1>
 	<h1>Множинні рядки в таблиці</h1>
-
+	<table border="2">
+		<thead>
+			<tr>
+				<th>Січень</th>
+				<th>Лютий</th>
+				<th>Березень</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Це комірка 1</td>
+				<td>комірка 2</td>
+				<td>Інша комірка,<br/>комірка 3</td>
+			</tr>
+			<tr>
+				<td>комірка 4</td>
+				<td>Ще одна,<br/>комірка 5</td>
+				<td>комірка 6</td>
+			</tr>
+		</tbody>
+	</table>
 	<h1>ALIGN=LEFT|RIGHT|CENTER</h1>
 	<h6>Може застосовуватися до окремої комірки або до всього рядка</h6>
-
+	<table border="2">
+		<thead>
+			<tr>
+				<th>Січень</th>
+				<th>Лютий</th>
+				<th>Березень</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td align="center">Все по<br/>центру</td>
+				<td>комірка 2</td>
+				<td>Інша комірка,<br/>комірка 3</td>
+			</tr>
+			<tr>
+				<td align="right">По правому</td>
+				<td align="center">По центру</td>
+				<td>За замовчуванням,<br/>по лівому</td>
+			</tr>
+		</tbody>
+	</table>
 	<h1>VALIGN=TOP|BOTTOM|MIDDLE</h1>
 	<h6>Може застосовуватися до окремої комірки або до всього рядка</h6>
-
+	<table border="2">
+		<thead>
+			<tr>
+				<th>Січень</th>
+				<th>Лютий</th>
+				<th>Березень</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td valign="top">По верхньому</td>
+				<td>Інша комірка,<br/>комірка 2</td>
+				<td>комірка 3</td>
+			</tr>
+			<tr>
+				<td valign="top">По верхньому</td>
+				<td align="bottom">По нижньому</td>
+				<td>За замовчуванням,<br/>по центру</td>
+			</tr>
+		</tbody>
+	</table>
 	<h1>CAPTION=TOP|BOTTOM</h1>
 
 	<h1>Вкладені таблиці: таблиця АВСД всередині таблиці 123456</h1>
