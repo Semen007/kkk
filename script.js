@@ -224,12 +224,51 @@
 
 
 
-var a = 3, b = 4;
 
-function sum (a, b) {
-	!function(that) {
-		console.log(that.a);
-	}(that);
-	return this.a + this.b + a + b;
-}
-console.log(sum(1,2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var arr = ['apple', 'banana', 'strawberry', 'cucumber'];
+
+
+
+// arr.pop(); 
+// arr.shift();
+
+// arr.push();
+// arr.unshift();
+
+
+
+// arr = arr.concat(arr);
+// console.log(arr);
+
+
+
+// arr.forEach((item, index) => {
+// 	console.log(item, index);
+// })
+
+
+
+// arr = arr.filter((item, index) => {
+// 	index % 2 === 0 ? true : false;
+// })
+// console.log(arr);
+
+
+
+// arr = arr.map((item, index) => {
+// 	return '1' + item;
+// })
+// console.log(arr);
